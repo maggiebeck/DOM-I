@@ -40,3 +40,44 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+const h1= document.querySelector
+
+let ctaText = document.getElementsByClassName("cta-text")[0];
+ctaText.getElementsByTagName("h1")[0].innerHTML = siteContent["cta"]["h1"];
+
+ctaText.getElementsByTagName("button")[0].innerHTML = siteContent['cta']['button']
+
+
+ let ctaimg = document.getElementById("cta-img")
+ ctaimg.setAttribute('src',siteContent['cta']['img-src'])
+
+let features = document.getElementsByClassName('text-content')[0]
+  features.getElementsByTagName('h4')[0].innerHTML = siteContent['main-content']['features-h4']
+  features.getElementsByTagName('p')[0].innerHTML = siteContent['main-content']["features-content"]
+
+  let about = document.getElementsByClassName('text-content')[1]
+ 
+  about.getElementsByTagName('h4')[0].innerHTML = siteContent['main-content']['about-h4']
+  about.getElementsByTagName('p')[0].innerHTML = siteContent['main-content']["features-content"]
+
+  let nextLogo = document.getElementById('middle-img')
+  nextLogo.setAttribute('src',siteContent['main-content']['middle-img-src'])
+
+  let services = document.getElementsByClassName('text-content')[2]
+  
+  services.getElementsByTagName('h4')[0].innerHTML = siteContent['main-content']['services-h4']
+  services.getElementsByTagName('p')[0].innerHTML = siteContent['main-content']["services-content"]
+
+
+  let product= document.getElementsByClassName('text-content')[3]
+  
+  product.getElementsByTagName('h4')[0].innerHTML = siteContent['main-content']['product-h4']
+  product.getElementsByTagName('p')[0].innerHTML = siteContent['main-content']["product-content"]
+
+  vision = document.getElementsByClassName('text-content')[4]
+  
+  vision.getElementsByTagName('h4')[0].innerHTML = siteContent['main-content']['vision-h4']
+  vision.getElementsByTagName('p')[0].innerHTML = siteContent['main-content']["vision-content"]
+  
+  let nav =document.querySelector ("nav")
